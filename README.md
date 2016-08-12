@@ -17,7 +17,7 @@ HTML은 태그 특성을 위한 간단히고 이해하기쉬운 이벤트 처리
 1. 람다 표현식으로 함수를 바로 적용할수 있다.
 
 ```jsx
-<div className='card__title; onClick={
+<div className='card__title'; onClick={
   ()=>this.setState({ showDetails: !this.state.showDetails })
 }>
 ```
@@ -33,7 +33,7 @@ class Card extends Component {
 
   render() {
    return (
-     <div className='card__title; onClick={this.toggleDetails.bind(this)}>
+     <div className='card__title'; onClick={this.toggleDetails.bind(this)}>
        {thiS.props.title}
      </div>
    )
