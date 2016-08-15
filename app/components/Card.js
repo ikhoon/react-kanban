@@ -16,9 +16,20 @@ class Card extends Component {
         <CheckList cardId={this.props.id} tasks={this.props.tasks} />
       </div>
     }
+    let sideColor = {
+      position: "absolute",
+      zlndex: -1,
+      top: 0,
+      bottom: 0,
+      left: 0,
+      width: 7,
+      backgroundColor: this.props.color
+    };
+
     return (
       <div className="card">
         <div
+          style={sideColor}
           className="card__title"
           onClick={() => this.setState({showDetails : !this.state.showDetails})}
         >{this.props.title}</div>

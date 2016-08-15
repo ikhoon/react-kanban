@@ -2,25 +2,27 @@ export const cardList =
   [
     {
       id: 1,
-      title: "ReadtheBook",
-      description: "Ishouldreadthewholebook",
+      title: "Read the Book",
+      description: "I should read the whole book",
+      color: "#BD8D310",
       status: 'in-progress',
       tasks: []
     },
     {
       id: 2,
       title: "Write some code",
-      description: "CodealongwiththeSamPlesinthebook",
+      description: "Code along with the samples in the book",
+      color : "#3A7E280",
       status: "todo",
       tasks: [
         {
           id: 1,
-          name: "ContactListExamPle",
+          name: "Contact List Example",
           done: true
         },
         {
           id: 2,
-          name: "KanbanExample",
+          name: "Kanban Example",
           done: false
         },
         {
