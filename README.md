@@ -41,7 +41,7 @@ class Card extends Component {
 }
 ```
 
-### JSX 자세히 실펴보기
+### JSX 자세히 살펴보기
 
 다음 코드는
 ```jsx
@@ -52,7 +52,7 @@ class Card extends Component {
 ReactCreateEIement("hl", null,"HelloWorld");
 ```
 
-#### JSX와HTML의 치이
+#### JSX와HTML의 차이
 
 JSX로 HTML 구문을 작성할 때는 세 가지 중요한 측면을 기억해야 한다.
 
